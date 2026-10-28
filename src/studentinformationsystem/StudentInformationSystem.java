@@ -23,14 +23,12 @@ public class StudentInformationSystem { //class named StudentInformationSystem
         //finalizing input
         int mark1 = 40;
         int mark2 = 45;
-        //calculating total mark of both finalize input
-        int total = mark1 + mark2;
-        
+       
         //to print an output and display each entered input and calculated value
         System.out.println("Student Name: " + name);
         System.out.println("Student ID: " + studentID);
         System.out.println("Mark 1: " + mark1);
         System.out.println("Mark 2: " + mark2);
-        System.out.println("Total Mark: " + total);       
+            
     }
 }
