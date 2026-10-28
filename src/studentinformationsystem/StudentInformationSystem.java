@@ -36,14 +36,12 @@ public class StudentInformationSystem { //class named StudentInformationSystem
         } else { //output value lower than 50
             System.out.println("Result: Needs Improvement");        
         }
-            
         //to print an output and display each entered input and calculated value
         System.out.println("Student Name: " + name);
         System.out.println("Student ID: " + studentID);
         System.out.println("Mark 1: " + mark1);
-        System.out.println("Mark 2: " + mark2);
-        
-        
+        System.out.println("Mark 2: " + mark2); 
+        System.out.println("Semester: Semester 1");  
         
     }
 }
