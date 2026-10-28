@@ -31,17 +31,6 @@ public class StudentInformationSystem { //class named StudentInformationSystem
         System.out.println("Student ID: " + studentID);
         System.out.println("Mark 1: " + mark1);
         System.out.println("Mark 2: " + mark2);
-        System.out.println("Total Mark: " + total);
-        
-        //selection condition happening
-        if (total >= 80) { // value 80 included
-            System.out.println("Result: Excellent");
-        } else if (total >= 50) { //value 50 included and not over value 80
-            System.out.println("Result: Good");
-        } else { //output value lower than 50
-            System.out.println("Result: Needs Improvement");        
-        }
-        // add this line at the bottom
-        System.out.println("Semester: Semester 1");
+        System.out.println("Total Mark: " + total);       
     }
 }
