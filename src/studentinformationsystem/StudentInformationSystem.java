@@ -13,7 +13,6 @@ package studentinformationsystem;
  * Version: 1.0
  ******************************************************************************/
 public class StudentInformationSystem { //class named StudentInformationSystem
-
     /**
      * @param args the command line arguments
      */
@@ -40,7 +39,9 @@ public class StudentInformationSystem { //class named StudentInformationSystem
         } else if (total >= 50) { //value 50 included and not over value 80
             System.out.println("Result: Good");
         } else { //output value lower than 50
-            System.out.println("Result: Needs Improvement");
+            System.out.println("Result: Needs Improvement");        
         }
+        // add this line at the bottom
+        System.out.println("Semester: Semester 1");
     }
 }
