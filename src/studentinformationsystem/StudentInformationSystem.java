@@ -23,12 +23,27 @@ public class StudentInformationSystem { //class named StudentInformationSystem
         //finalizing input
         int mark1 = 40;
         int mark2 = 45;
-       
+       //calculating total mark of both finalize input
+        int total = mark1 + mark2;
+        
+        System.out.println("Total Mark: " + total);//to print before the others
+        
+        //selection condition happening
+        if (total >= 80) { // value 80 included
+            System.out.println("Result: Excellent");
+        } else if (total >= 50) { //value 50 included and not over value 80
+            System.out.println("Result: Good");
+        } else { //output value lower than 50
+            System.out.println("Result: Needs Improvement");        
+        }
+            
         //to print an output and display each entered input and calculated value
         System.out.println("Student Name: " + name);
         System.out.println("Student ID: " + studentID);
         System.out.println("Mark 1: " + mark1);
         System.out.println("Mark 2: " + mark2);
-            
+        
+        
+        
     }
 }
